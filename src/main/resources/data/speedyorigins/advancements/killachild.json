@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "speedyorigins:speedy_logo"
+    },
+    "title": {
+      "translate": "advancements.killachild.title"
+    },
+    "description": {
+      "translate": "advancements.killachild.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "killachild": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

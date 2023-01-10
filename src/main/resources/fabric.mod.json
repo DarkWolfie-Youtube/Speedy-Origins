@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "speedyorigins",
+  "version": "1.0.0",
+  "name": "Speedy Origins",
+  "authors": [
+    "DarkWolfie, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.darksmp.speedyorigins.SpeedyoriginsMod"
+    ],
+    "client": [
+      "com.darksmp.speedyorigins.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "speedyorigins.mixins.json"
+  ]
+}

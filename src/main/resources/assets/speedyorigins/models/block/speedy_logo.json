@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "speedyorigins:blocks/28b10ddf-20a7-4ee6-aaa4-f1a7a88f3898-profile_image-70x70",
+    "up": "speedyorigins:blocks/28b10ddf-20a7-4ee6-aaa4-f1a7a88f3898-profile_image-70x70",
+    "north": "speedyorigins:blocks/28b10ddf-20a7-4ee6-aaa4-f1a7a88f3898-profile_image-70x70",
+    "east": "speedyorigins:blocks/28b10ddf-20a7-4ee6-aaa4-f1a7a88f3898-profile_image-70x70",
+    "south": "speedyorigins:blocks/28b10ddf-20a7-4ee6-aaa4-f1a7a88f3898-profile_image-70x70",
+    "west": "speedyorigins:blocks/28b10ddf-20a7-4ee6-aaa4-f1a7a88f3898-profile_image-70x70",
+    "particle": "speedyorigins:blocks/28b10ddf-20a7-4ee6-aaa4-f1a7a88f3898-profile_image-70x70"
+  }
+}

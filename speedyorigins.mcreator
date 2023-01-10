@@ -1,0 +1,89 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpeedyLogo",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedy_logo"
+    },
+    {
+      "name": "SpeedyBanner",
+      "type": "painting",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedy_banner"
+    },
+    {
+      "name": "Killachild",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killachild"
+    },
+    {
+      "name": "AdvancementKill",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancement_kill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "speedylaugh",
+      "files": [
+        "speedlaugh"
+      ],
+      "category": "master",
+      "subtitle": "Speedy Laughs"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.speedylaugh": "Speedy Laughs",
+      "advancements.killachild.title": "Killed a Child",
+      "block.speedyorigins.speedy_logo": "Speedy Logo",
+      "advancements.killachild.descr": "You killed a baby zombie... was that an orphan? YOU MONSTOR!?!?!?!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "speedyorigins",
+    "modName": "Speedy Origins",
+    "version": "1.0.0",
+    "author": "DarkWolfie, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "com.darksmp.speedyorigins",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

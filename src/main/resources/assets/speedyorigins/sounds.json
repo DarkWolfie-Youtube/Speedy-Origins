@@ -1,0 +1,12 @@
+{
+  "speedylaugh": {
+    "category": "master",
+    "subtitle": "subtitles.speedylaugh",
+    "sounds": [
+      {
+        "name": "speedyorigins:speedlaugh",
+        "stream": false
+      }
+    ]
+  }
+}
